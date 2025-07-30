@@ -40,10 +40,12 @@
 .social-media-navigation {
   flex: 2;
   background-color: var(--nord2);
+  justify-content: center;
+  align-items: center;
 }
 
 .text-content {
-  margin: 10%;
+  margin: 20%;
   padding: 10px;
   text-align: center;
 }
