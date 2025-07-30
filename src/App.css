@@ -14,6 +14,9 @@
 .main-text-content {
   flex: 3;
   background-color: var(--nord0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-media-content {
@@ -30,10 +33,17 @@
 
 .page-navigation {
   flex: 3;
-  background-color: var(--nord1);;
+  background-color: var(--nord1);
+  ;
 }
 
 .social-media-navigation {
   flex: 2;
   background-color: var(--nord2);
+}
+
+.text-content {
+  margin: 10%;
+  padding: 10px;
+  text-align: center;
 }

@@ -1,7 +1,9 @@
 export default function SocialMediaNavigation() {
     return (
         <>
-            <div className="social-media-navigation main-element"></div>
+            <div className="social-media-navigation main-element">
+                <img src="" alt="" />
+            </div>
         </>
     )
 }

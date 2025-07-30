@@ -1,7 +1,11 @@
-export default function MainTextContent(){
-    return(
+import TextContent from "./TextContent"
+
+export default function MainTextContent() {
+    return (
         <>
-            <div className="main-text-content main-element"></div>
+            <div className="main-text-content main-element">
+                <TextContent />
+            </div>
         </>
     )
 }
